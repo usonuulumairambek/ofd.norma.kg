@@ -1,0 +1,100 @@
+.counter-content
+  img
+    max-height: 400px
+    display: block
+    margin: auto 
+    grid-area: image
+
+  color: white
+  display: grid
+  grid-template-areas: "counter__1 image image image counter__2"
+
+  height: 450px
+  max-width: 1200px
+  margin: 0 auto
+
+.kassy__content-bottom
+  padding: 300px 0 0
+  height: 450px
+  
+.counter-content-img
+  border-radius: 50px
+.counter__1,
+.counter__2
+  padding: 10px
+  display: flex
+  align-items: center
+
+
+.counter__1
+  grid-area: counter__1
+
+.counter__2
+  grid-area: counter__2
+
+.counter__text 
+  text-align: center
+  font-size: 23px
+
+.counter__text 
+  span
+    font-size: 30px
+    font-weight: 600
+    font-family: "Roboto",sans-serif
+
+
+
+  .counter__title
+
+
+@media screen and (max-width: 850px)
+  .counter-content
+    grid-template-areas: "image image""counter__1 counter__2" 
+
+  .counter-content img
+      width: 45%
+      margin: 0 auto
+      margin-top: auto
+   
+  .counter__text
+    font-size: 10px
+    margin-bottom: 10px
+    margin: 0 auto
+
+@media screen and (max-width: 805px)
+  .counter__text 
+    span
+      font-size: 25px
+
+    h1
+      font-size: 35px
+
+  .kassy__content-bottom
+    padding-top: 41%
+
+@media screen and (max-width: 705px)
+  .counter-content-img
+    width: 55%
+  .counter__text
+    margin-top: 10%
+
+  .kassy__content-bottom
+    padding-top: 51%
+
+
+ 
+
+@media screen and (max-width: 400px)
+  .counter__text h1
+    font-size: 25px
+    margin-top: 10%
+
+  .counter__text 
+    span
+      font-size: 20px
+
+  
+
+
+  .kassy__content-bottom
+    padding-top: 71%

@@ -1,0 +1,241 @@
+.equipments_wrapper {
+  max-width: 1200px;
+  margin-bottom: 30px;
+}
+
+.equipments {
+  margin-bottom: 30px;
+}
+
+/* SIDEBAR */
+.equipments-nav_link {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 330px auto;
+  grid-template-columns: 330px auto;
+  -webkit-column-gap: 40px;
+  column-gap: 40px;
+}
+
+.equipment__sidebar {
+  display: -ms-grid;
+  display: grid;
+  margin: 2rem 0;
+  -ms-grid-columns: 330px;
+  grid-template-columns: 330px;
+  -ms-grid-rows: (55px) [auto-fit];
+  grid-template-rows: repeat(auto-fit, 55px);
+}
+
+.nav_link-items {
+  padding: 15px 10px;
+  color: black;
+  border-bottom: 1px rgba(148, 148, 148, 0.397) solid;
+  -webkit-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+
+.nav_link-items:hover {
+  text-decoration: none;
+  color: white;
+  background-color: #033f84;
+  padding-left: 20px;
+}
+
+.equipments_item {
+  max-width: 371px;
+  background: #ffffff;
+  -webkit-box-shadow: 0 1px 23px 4px rgba(214, 218, 255, 0.66);
+  box-shadow: 0 1px 23px 4px rgba(214, 218, 255, 0.66);
+  border-radius: 14px;
+}
+
+.equipments_item_image {
+  width: 100%;
+  position: relative;
+}
+
+.equipments_item_image img {
+  max-width: 100%;
+  display: block;
+  -webkit-transition: all 0.4s ease 0s;
+  transition: all 0.4s ease 0s;
+  cursor: pointer;
+}
+
+.staff_card_button {
+  margin-top: 5%;
+}
+
+.equipments_item_image img:hover {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.equipments_item_info {
+  background: #3b328b;
+  padding: 40px 20px 50px;
+  min-height: 250px;
+  cursor: pointer;
+  -webkit-transition: all 0.4s ease 0s;
+  transition: all 0.4s ease 0s;
+  text-align: center;
+}
+
+.equipments_item_info:hover {
+  background: #292268;
+}
+
+.equipments_item_info_title {
+  font-size: 38px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.equipments_item_info_desc {
+  color: #ddd;
+  font-weight: 400;
+  padding: 20px 0 40px;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  line-height: 20px;
+}
+
+
+
+.nav_link {
+  margin-top: 10px;
+}
+
+
+
+/* MODAL */
+.modalContent {
+  padding: 20px;
+  width: 450px;
+  font-family: sans-serif;
+}
+
+.modal__title {
+  font-size: 23px;
+  margin-bottom: 40px;
+  font-weight: normal;
+}
+
+.modal__equipment-name {
+  font-size: 1.3rem;
+  font-weight: 500;
+  margin-left: 8px;
+}
+
+.modal__equipment-btn {
+  margin-top: 35px;
+  width: 100%;
+  height: 36px;
+  background: linear-gradient(
+    91.97deg,
+    #02346a 5.96%,
+    #03366b 12.53%,
+    #0082fa 96.09%
+  );
+  border-radius: 4px;
+  border: none;
+  font-weight: 500;
+  font-size: 14px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal__equipment-input {
+  padding: 3px;
+  padding-left: 10px;
+  margin-bottom: 10px;
+  margin-top: 8px;
+
+  height: 50px;
+  width: 100%;
+  background-color: #e8f0fec2;
+  border-radius: 3px;
+  border: none;
+}
+
+.modal_x {
+  display: none;
+}
+
+.modal__eqipment-error {
+  color: red;
+  margin-bottom: 5px;
+}
+
+.error-border {
+  border: 1px solid red;
+  margin-bottom: 5px;
+}
+
+/* CARD */
+
+.staffs_cards_item {
+  margin-bottom: 1.5rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.staffs_cards_item_btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.staffs_cards_item_img {
+
+}
+
+/* END OF MODAL */
+
+@media (max-width: 1380px) {
+  .equipments_wrapper {
+    padding: 0 50px;
+  }
+  .staffs_cards_item {
+    max-width: 370px;
+  }
+}
+
+@media (max-width: 995px) {
+  .staffs_cards_item {
+    max-width: 370px;
+  }
+}
+
+@media (max-width: 768px) {
+  .equipments-nav_link {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 100%;
+    grid-template-columns: 100%;
+    row-gap: 40px;
+  }
+  .equipments_wrapper {
+    padding: 0 15px;
+  }
+  .equipment__sidebar {
+    margin: 2rem 0;
+    -ms-grid-columns: 100%;
+    grid-template-columns: 100%;
+  }
+  .modal_x {
+    display: block;
+    position: absolute;
+    top: 35px;
+    right: 2px;
+    background-color: red;
+    color: white;
+    padding: 0px 12px;
+    border-radius: 50%;
+    font-size: 25px;
+    cursor: pointer;
+  }
+}
+/*# sourceMappingURL=Equipments.css.map */
