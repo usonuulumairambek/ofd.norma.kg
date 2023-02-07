@@ -1,5 +1,4 @@
 import React, { useState, useEffect, useRef } from "react";
-import ReactDOM from "react-dom";
 
 function CountYear() {
   const [count, setCount] = useState(900021);

@@ -1,7 +1,7 @@
 import React from "react";
 import "./index.css";
-import image from "../header/logo.png";
-import vid from "./files/video-chestznak.mp4";
+// import image from "../header/logo.png";
+// import vid from "./files/video-chestznak.mp4";
 export default function Necessaries() {
   return (
     <div className="wrapper">

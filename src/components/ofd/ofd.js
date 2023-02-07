@@ -15,7 +15,7 @@ const Ofd = () => {
               <br />
               налоговую службу, отправляет чеки покупателям.{" "}
             </p>
-            <a target="_blank" href="http://lk.norma.kg/login">
+            <a target="_blank" rel="noreferrer"  href="http://lk.norma.kg/login">
             <button className="ofd__section-btn">Подключить</button>
             </a>
           </div>

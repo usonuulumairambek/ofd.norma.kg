@@ -3,6 +3,7 @@
 }
 
 .benefits h1 {
+    color: #29416e;
     margin-bottom: 30px;
 }
 
@@ -48,6 +49,7 @@
 }
 
 .card_width h2  {
+    color: #29416e;
     margin-bottom: 10px;
     font-family: 'Roboto', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }

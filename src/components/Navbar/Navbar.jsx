@@ -33,7 +33,7 @@ const Navbar = () => {
           <NavLink onClick={changeBurger} to="/contactUs">Контакты</NavLink>
         </div>
         <div className="header__auth">
-          <a className="header__auth-link" target="_blank" href="http://lk.ofd.norma.kg/login">
+          <a className="header__auth-link" target="_blank" rel="noreferrer" href="http://lk.ofd.norma.kg/login">
             Войти
           </a>
         </div>

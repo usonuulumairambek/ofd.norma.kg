@@ -1,6 +1,5 @@
 import React from "react";
 import CountDay from "./CountDay";
-import ofdphoto from "./img/ofd.png";
 import "./counter.sass";
 import img from "./img/imm.png";
 import CountYear from "./CountYear";
